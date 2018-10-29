@@ -1,0 +1,19 @@
+body {
+
+}
+
+.a {
+  color: black;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
