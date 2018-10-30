@@ -77,3 +77,9 @@ margin-left: 15px;
   top: 700px;
   margin: 0 auto;
 }
+
+h2 {
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+}
