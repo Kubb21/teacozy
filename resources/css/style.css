@@ -2,8 +2,8 @@ body {
 
 }
 
-.a {
-  color: black;
+a {
+  color: white;
 }
 
 /* Header */
@@ -16,4 +16,23 @@ header {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+  text-decoration: underline;
+}
+
+.logo img {
+  
+  height: 50px;
+  margin-right: 10px;
 }
