@@ -1,5 +1,6 @@
 body {
-
+margin: 0 auto;
+background-color: black;
 }
 
 a {
@@ -32,7 +33,10 @@ header {
 }
 
 .logo img {
-  
   height: 50px;
   margin-right: 10px;
+}
+
+header span {
+margin-left: 15px;
 }
