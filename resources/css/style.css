@@ -45,6 +45,7 @@ margin-left: 15px;
 /* Mission photo */
 
 .mission {
+
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-repeat: no-repeat;
   height: 700px;
@@ -61,4 +62,18 @@ margin-left: 15px;
   font-size: 22px;
   text-align: center;
   height: 90px;
+}
+
+/* Tea of the Month */
+
+.Month {
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  text-align: center;
+  width: 1000px;
+  position: relative;
+  top: 700px;
+  margin: 0 auto;
 }
