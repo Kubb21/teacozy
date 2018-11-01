@@ -127,15 +127,11 @@ h4 {
   bottom: 100px;
 }
 
-.ct {
-  display: block;
-  background-color: blue;
-}
-
-.location span{
-  font-size: 22px;
-  font-family: Helvetica;
+.loca {
+  font-size: 30px;
   color: seashell;
+  position: relative;
+  right: 400px;
 }
 
 .container-two {
