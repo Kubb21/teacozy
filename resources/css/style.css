@@ -127,7 +127,16 @@ h4 {
   bottom: 100px;
 }
 
+.ct {
+  display: block;
+  background-color: blue;
+}
 
+.location span{
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+}
 
 .container-two {
   display: flex;
