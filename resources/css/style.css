@@ -51,35 +51,69 @@ header nav {
 /* Mission photo */
 
 .mission {
-
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-repeat: no-repeat;
   height: 700px;
   width: 1200px;
-  margin: 0 auto;
+  margin: 70px auto;
 }
 
 .image-content {
+  display: block;
   background-color: black;
   position: relative;
-  top: 300px;
+  bottom: 530px;
   color: seashell;
   font-family: Helvetica;
   font-size: 22px;
   text-align: center;
   height: 90px;
+  justify-content: center;
+  align-items: center;
 }
 
+/* tea of the month */
 
-
-.Month {
+.banner {
+  text-align: center;
   color: seashell;
   font-family: Helvetica;
   font-size: 22px;
   background-color: black;
-  text-align: center;
-  width: 1000px;
   position: relative;
-  top: 700px;
-  margin: 0 auto;
+  bottom: 80px;
+}
+
+#featured-teas {
+  width: 960px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  bottom: 100px;
+
+}
+
+.flex-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#featured-teas .tea-item{
+  width: 30%;
+  margin: 8px;
+}
+
+#featured-teas .tea-item img{
+  height: 200px;
+  width: 300px;
+  justify-content: space-between;
+}
+
+h4 {
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
 }
