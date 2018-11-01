@@ -124,21 +124,61 @@ h4 {
   width: 1200px;
   margin: 0 auto;
   position: relative;
-  top: 860px;
+  bottom: 100px;
 }
 
-.t {
-  background-color: red;
+
+
+.container-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  bottom: 580px;
+
 }
 
-.box {
-  background-color: pink;
+.box-two {
+  margin: 0px 80px 0px 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
   color: seashell;
   font-family: Helvetica;
   font-size: 22px;
   text-align: center;
   height: 200px;
   width: 300px;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+.box {
+  margin: 0px 40px 0px 80px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  height: 200px;
+  width: 300px;
+  opacity: 1;
+}
+
+.box-three {
+  margin: 0px 80px 0px 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  height: 200px;
+  width: 300px;
+  opacity: 1;
 }
 
 /* footer */
@@ -150,7 +190,7 @@ h4 {
   font-size: 22px;
   text-align: center;
   position: relative;
-  top: 902px;
+  top: 180px;
 }
 
 footer {
@@ -159,6 +199,6 @@ footer {
   font-family: Helvetica;
   font-size: 22px;
   position: relative;
-  top: 880px;
+  top: 120px;
   left: 20px;
 }
