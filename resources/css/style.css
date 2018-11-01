@@ -89,7 +89,6 @@ header nav {
   margin: auto;
   position: relative;
   bottom: 100px;
-
 }
 
 .flex-row{
@@ -121,6 +120,45 @@ h4 {
 /* location */
 
 .location {
-  height: 700px;
+  height: 500px;
   width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top: 860px;
+}
+
+.t {
+  background-color: red;
+}
+
+.box {
+  background-color: pink;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  height: 200px;
+  width: 300px;
+}
+
+/* footer */
+
+.footer {
+  height: 200px;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  top: 902px;
+}
+
+footer {
+  text-align: left;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  position: relative;
+  top: 1000px;
+  left: 20px;
 }
